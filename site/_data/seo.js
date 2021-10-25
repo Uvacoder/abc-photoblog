@@ -3,7 +3,7 @@ module.exports = () => {
         twitter: {
             card: 'summary_large_image',
             site: false,
-            creator: '@MoritzLost',
+            creator: '@uvacoder',
         }
     }
 }
