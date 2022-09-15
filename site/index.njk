@@ -16,7 +16,7 @@ description: The crazy crazy world I live in from a cameras viewpoint 📸
 {% import "macros/utils.njk" as utils with context %}
 {% import "macros/blocks.njk" as blocks with context %}
 
-<h1>My life in Pictures</h1>
+<h1>My Pictures, My World</h1>
 
 <section class="homepage-content__section">
     <h2 id="latest-photos">Latest photos</h2>
@@ -43,7 +43,7 @@ description: The crazy crazy world I live in from a cameras viewpoint 📸
 </section>
 
 <section class="homepage-content__section">
-    <h2 id="about-me">My info</h2>
+    <h2 id="about-me">My Bio</h2>
     <div class="intro-box">
         {{ macros.figure(
             { name: 'home/2020_moritz_lost_compressed.jpg', alt: "A portrait of me, Moritz L'Hoest, wearing my glasses and smiling slightly." },
@@ -67,7 +67,7 @@ description: The crazy crazy world I live in from a cameras viewpoint 📸
             <p>
                 {{ "Get in touch:  " | md_inline | safe }}
                 {{ utils.link('mailto:freeunioncoder@gmail.com', 'm@mehrlicht.photos', 'solid/envelope', ['intro-box__link']) }}
-                {{ utils.link('https://www.github.com/uvacoder/', 'MoritzLost', 'brands/instagram', ['intro-box__link']) }}
+                {{ utils.link('https://www.github.com/uvacoder/', 'uvacoder', 'brands/instagram', ['intro-box__link']) }}
             </p>
         </div>
     </div>
